@@ -13,9 +13,9 @@ public class Electronics {
     }
 
     public static void main(String[] args) {
-        int[] keyboards = {40, 50, 60};
-        int[] drives = {5, 8, 12};
-        int b = 60;
+        int[] keyboards = {10, 20, 30};
+        int[] drives = {6, 10, 15};
+        int b = 80;
         System.out.println(getMoneySpent(keyboards, drives, b));
     }
 }
